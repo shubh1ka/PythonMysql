@@ -2,7 +2,6 @@ import sqlite3
 
 import mysql.connector
 
-conn = sqlite3.connect("newdatabase.db")
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
